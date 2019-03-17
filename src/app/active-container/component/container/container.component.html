@@ -1,0 +1,7 @@
+<app-top-bar></app-top-bar>
+<p>
+  container works!
+</p>
+<div *ngFor="let content of components">
+  <ng-template [appActiveComponent]="content"></ng-template>
+</div>
